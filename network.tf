@@ -4,7 +4,7 @@
 resource "aws_vpc" "kigure-vpc-test" {
   cidr_block = "10.1.0.0/16"
   tags = {
-    Name = "kigure-rtb-test"
+    Name = "kigure-vpc-test"
   }
 }
 
